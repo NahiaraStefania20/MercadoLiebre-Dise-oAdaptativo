@@ -1,0 +1,125 @@
+:root {
+    --color-amarillo : #EAC926;
+    --color-azul : #03264c;
+    --color-celeste : #1259c3;
+    --color-grisOscuro : #666;
+    --color-grisClaro : #ebebeb;
+    --color-verde : #39b54a;
+    --font-roboto : 'Roboto', sans-serif;
+    --paragraph : 12px;
+    --title : 24px;
+    --prices : 18px;
+}
+
+* {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+
+.logo {
+  width: 50%;
+}
+
+header {
+  background-color: var(--color-amarillo);
+}
+
+.producto{
+  background-color: white;
+  margin: 5px 0;
+}
+
+.precio{
+  font-size: 18px;
+  *padding-left: 5%;
+}
+
+.descuento{
+  font-size: 16px;
+  *padding-left: 5%;
+}
+
+.burger-menu {
+  padding: 8px;
+  color: white;
+  width: 20px;
+  text-align: center;
+  background-color: var(--color-celeste);
+  border-radius: 5px;
+  margin: 0px 150px;
+}
+
+main {
+  background-color: var(--color-grisClaro);
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  font-size: 18px;
+}
+
+footer {
+  background-color: white;
+}
+
+.contenedor-footer {
+  margin: 20px;
+}
+
+.contenedor-footer h5 {
+  font-size: 20px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.contenedor-footer p {
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px;
+  color: var(--color-grisOscuro);
+}
+
+.contenedor-icono {
+  width: 30px;
+  padding-left: 100px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px){
+
+  .burger-menu{
+      display: none;
+  }
+
+  .producto{
+      box-shadow: 0px 0px 10px rgb(100,100,100);
+
+  }
+}
+
+@media (min-width: 1024px){
+
+}
+
+@media (min-width: 768px){
+    
+
+  .burger-menu{
+      display: none;
+  }
+
+
+  .producto{
+      box-shadow: 0px 0px 10px rgb(100,100,100);
+
+  }
+  
+}
+
+@media (min-width: 1024px){
+
+}
